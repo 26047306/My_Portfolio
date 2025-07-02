@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Developer Sky</title>
+  <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-in-out;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+     .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-in-out;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .alert {
+      display: none;
+      align-items: center;
+      gap: 10px;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.6s ease;
+      animation: fadeIn 0.6s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .alert.success {
+      background-color: #e6ffed;
+      color: #155724;
+      border: 1px solid #b5e3c8;
+    }
+
+    .alert.error {
+      background-color: #ffe6e6;
+      color: #842029;
+      border: 1px solid #f5c2c7;
+    }
+
+    .alert.show {
+      display: flex;
+      animation: bounce 0.4s ease;
+    }
+
+    @keyframes bounce {
+      0% { transform: scale(0.9); opacity: 0.7; }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+    <!-------------------------- Header Area -------------------------->
+    <header class="header-area">
+        <div class="container">
+            <div class="header">
+               
+                <a href="" class="logo">
+                    <h3>SkyDev</h3>
+                    <i class="fa fa-bolt"></i>
+                </a>
+                   
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="menu_icon">
+                    <i class="fa fa-bars"></i>
+                </div>
+
+            </div>
+        </div> 
+    </header>
+ 
+    <!-------------------------- Home Page -------------------------->
+    <div class="FirstElement" id="home">
+        <div class="profile-photo">
+            <img src="files/profile.jpg" alt="profile picture">
+        </div>
+        <div class="profile-text">
+            <h5>Hi I'm </h5><br>
+            <h1>Sandeep Kumar</h1><br>
+            <p>Welcome to my portfolio website! I'm a passionate and aspiring software engineer with
+                 a strong desire to create innovative solutions and push the boundaries of technology.With 
+                 a deep love for coding and problem-solving, I am constantly seeking opportunities to learn 
+                 and grow in this ever-evolving field</p>
+            
+            <div class="btn-group">
+                <a href="files/Resum.pdf" class="btn   active">Download CV</a>
+                <a href="mailto:ravindrayadav4367@gmail.com" class="btn">Contact</a>
+            </div>
+
+            <!-- <div class="social">
+                <a href="mailto:ravindrayadav4367@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa fa-code"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div> -->
+            <div class="social">
+            <!-- Email -->
+            <a href="mailto:ravindrayadav4367@gmail.com" target="_blank">
+                <i class="fa fa-envelope"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/26047306" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <!-- Portfolio / CodePen / LeetCode etc. -->
+            <a href="https://www.codechef.com/users/husk_owls_26" target="_blank">
+                <i class="fa fa-code"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/sandeep-kumar-386333204/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            </div>
+
+
+        </div>
+    </div>
+
+        <!-------------------------- About Section -------------------------->
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="about">
+                
+                <div class="about-content">
+                    <h4>About Me</h4>
+                    <ul>
+                      <li>I am currently pursuing my Bachelor's Degree in Computer Science Engineering with specilization in Data Science at Oriental College of Technology. I have built a solid foundation in software development, particularly in areas such as Python, SQL, Git, and GitHub.</li>
+                      <li> My expertise in these areas allows me to approach projects with confidence and deliver high-quality results. I have a strong belief in the value of continuous learning and staying adaptable in the ever-evolving world of software engineering.</li>
+                      <li> I actively seek out opportunities to expand my knowledge and skills, embracing new technologies and approaches.Feel free to explore my work and get in touch if you have any questions or opportunities to collaborate. </li>
+                    </ul>
+                </div>
+                                  
+                <div class="about-skills">
+                    <ul>
+                        <pre></pre><li>Name : Sandeep Kumar</li></pre>
+                        <pre></pre> <li>Age : 21</li>   </pre>  
+                        <pre></pre><li>From : India</li> </pre>
+                        <pre></pre><li>Email : ravindrayadav4367@gmail.com</li> </pre>
+                        <pre></pre><li>Availabiltiy : Full-Time</li> </pre>
+                        <li>Experience : beginner</li> </pre>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-------------- Education & Internship -------------->
+    <section class="education-content" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="education ">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        Bachelor of Technology | CSE-DS  |
+                                    </h3>
+                                    <h4 class="timeline-title">Oriental College of Technology</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2022-Present | 7.43 CGPA |
+                                    </h4>
+                                </div> 
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">Higher Secondary Education(12th), Science</h3>
+                                    <h4 class="timeline-title">BSEB | Arah, Bihar </h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2021 | 70% |
+                                    </h4>
+                                </div>
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        Secondary Education(10th)
+                                    </h3>
+                                    <h4 class="timeline-title"> BSEB | Sasaram, Bihar </h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2019 | 74% |
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="internship">
+                    <h3 class="title">Internship</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+                                
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        R- Programming and Analytics
+                                    </h3>
+                                    <h4 class="timeline-title">CRISP</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> JULY-2023
+                                    </h4>
+                                    <li class="timeline-text">Worked on data analysis and visualization using R programming. Gained hands on Experience in cleaning, transforming, and analyzing datasets like IRIS dataset. Utilized R libraries such as ggplot2, dplyr, and tidyr for insightful visualization and statical analysis.
+                                    </li>
+                                </div> 
+                                <!-- Timeline-item -->
+                                <!-- <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">PCB LAYOUT DESIGN AND FABRICATION</h3>
+                                    <h4 class="timeline-title">PIONEER CIRCUITS</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> DEC-2021
+                                    </h4>
+                                    <li class="timeline-text">Experienced in PCB design and fabrication with a focus on Altium Designer software. Proficient in designing high-quality PCB boards. Two-week internship in the field, gaining hands-on experience and enhancing skills.</li>
+                                </div> -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-------------------------- Projects -------------------------->
+    <section class="project-content" id="projects">
+        <div class="container">
+            <div class="project-title">
+                <h4>My Projects</h4>
+                <p>Discover my projects, where creativity meets innovation</p>
+            </div>
+            <div class="projects">
+                <!-- 1st Project -->
+                    <li><a href="https://id-card-prevention-app.onrender.com">
+                        <div class="project">
+                           <i class="fa fa-desktop"></i>    
+                           <h4>💳 ID Card Prevention App</h4>
+                            <p>A smart identity verification system built to prevent unauthorized access and misuse of ID cards.
+                                The app verifies a unique ID and fetches corresponding user details like Name, Course, Branch, 
+                                Batch, and Image from a secure database.
+                                It ensures only registered users are granted access, enhancing security and trust.</p>
+                        </div>
+                    </a></li>
+                 <!-- 2nd Project -->
+                        <li>  <a href="https://skybot-ai-assistent-1.onrender.com/">
+                            <div class="project">
+                                <i class="fa fa-desktop"></i>
+                                <h4>🤖 SkyBot – College AI Assistant</h4>
+                                <p>SkyBot is an AI-powered chatbot that serves as a virtual assistant for college students, 
+                                    offering instant answers related to courses, departments, placements, campus facilities,
+                                    and more — in both Hindi and English. Designed to simplify student queries, SkyBot integrates 
+                                    smart features with a beautiful and user-friendly interface.</p>
+                            </div>
+                        </a></li>    
+                <!-- 3rd Project -->
+                        <li><a href=" https://26047306.github.io/Portfolio/">
+                            <div class="project">
+                                <i class="fa fa-desktop"></i>
+                                <h4> 👨‍💻 Portfolio Website</h4>
+                                <p>Created a portfolio website using HTML, CSS, and JavaScript, It serves as a platform to 
+                                    introduce myself, share my projects, and provide information about my  education and
+                                    internship.</p>
+                            </div>
+                        </a></li>
+            </div>
+        </div>
+    </section>
+
+         <!-- ------------------------ Contact Me ------------------------ -->
+
+     <section class="contact-content" id="contact">
+    <div class="container">
+      <div class="contact-title">
+        <h4>Contact Me</h4>
+        <p>Get In Touch</p>
+      </div>
+      <div class="contact">
+        <form id="contact-form">
+          <input type="text" name="from_name" placeholder="Your Name" required />
+          <input type="email" name="from_email" placeholder="Your Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div id="alert-box" class="alert success">
+          <span id="alert-icon">✅</span> <span id="alert-text">Message sent successfully!</span>
+        </div>
+        <audio id="alert-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-correct-answer-tone-2870.mp3" preload="auto"></audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- EmailJS & Custom Script -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("KcUh9o-CrQrEMCJhm"); // Public Key
+    })();
+
+    const form = document.getElementById("contact-form");
+    const alertBox = document.getElementById("alert-box");
+    const alertText = document.getElementById("alert-text");
+    const alertIcon = document.getElementById("alert-icon");
+    const alertSound = document.getElementById("alert-sound");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm("service_23funlp", "template_vchc97i", this)
+        .then(
+          function () {
+            showFancyAlert("✅", "Message sent successfully!", "success");
+            form.reset();
+          },
+          function (error) {
+            showFancyAlert("❌", "Failed to send message. Try again!", "error");
+            console.error("EmailJS Error:", error);
+          }
+        );
+    });
+
+    function showFancyAlert(icon, message, type) {
+      alertIcon.textContent = icon;
+      alertText.textContent = message;
+      alertBox.className = `alert ${type} show`;
+      alertSound.play();
+
+      setTimeout(() => {
+        alertBox.classList.remove("show");
+      }, 5000);
+    }
+  </script>
+
+  <!-- Scroll Reveal and Other Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+
+  <script>
+    function revealOnScroll() {
+      const reveals = document.querySelectorAll('.reveal');
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const revealTop = reveals[i].getBoundingClientRect().top;
+        const revealPoint = 100;
+        if (revealTop < windowHeight - revealPoint) {
+          reveals[i].classList.add('active');
+        } else {
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('load', revealOnScroll);
+  </script>
+        
+    <!-------------------------- JS -------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    
+    <!-------------------------- Footer section -------------------------->
+  
+ <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+  <script>
+    // Scroll animation
+    function revealOnScroll() {
+      const reveals = document.querySelectorAll('.reveal');
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const revealTop = reveals[i].getBoundingClientRect().top;
+        const revealPoint = 100;
+        if (revealTop < windowHeight - revealPoint) {
+          reveals[i].classList.add('active');
+        } else {
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('load', revealOnScroll);
+  </script>
+  
+</body>
+</html>
